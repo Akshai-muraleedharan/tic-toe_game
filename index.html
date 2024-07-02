@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>TIC TOE</h1>
+
+    <h2 id="game_status"></h2>
+    <div class="board">
+       
+        <div class="row">
+            <div class="col" id="col-1" onclick="clicked(1)" ></div>
+            <div class="col" id="col-2" onclick="clicked(2)" ></div>
+            <div class="col" id="col-3" onclick="clicked(3)" ></div>
+        </div>
+        <div class="row">
+            <div class="col" id="col-4" onclick="clicked(4)" ></div>
+            <div class="col" id="col-5" onclick="clicked(5)" ></div>
+            <div class="col" id="col-6" onclick="clicked(6)" ></div>
+        </div>
+        <div class="row">
+            <div class="col" id="col-7" onclick="clicked(7)" ></div>
+            <div class="col" id="col-8" onclick="clicked(8)" ></div>
+            <div class="col" id="col-9" onclick="clicked(9)" ></div>
+           
+        </div>
+        <button id="button" onclick="reset()">Reset</button>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
